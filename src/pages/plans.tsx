@@ -1,5 +1,4 @@
 import Pricing from '../components/pricing';
-import Nav from "../components/nav"
 const Plans = () => {
     return (
         <>
