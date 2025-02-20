@@ -4,8 +4,6 @@ import Nav from './components/nav';
 import About from './pages/about';
 import Plans from './pages/plans';
 import Contact from './pages/contact';
-import Footer from './components/footer';
-import HeroSection from './components/hero';
 
 
 

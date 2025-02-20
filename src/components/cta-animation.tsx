@@ -5,12 +5,11 @@ import {
    Gamepad2,
    Globe,
    Cable,
-   ArrowUpDown,
    Rss,
    Shield,
 } from 'lucide-react'
 import { useEffect, useId, useRef, useState } from 'react'
-import { buttonVariants } from './ui/button';
+
 import { ny } from '../lib/utils'
 import Marquee from './ui/marquee';
 

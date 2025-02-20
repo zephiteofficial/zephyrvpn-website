@@ -1,6 +1,5 @@
 
 import Features from "../components/feature";
-import CallToActionSection from "../components/cta-animation";
 import HeroSection from "../components/hero";
 
 export default function Home(){

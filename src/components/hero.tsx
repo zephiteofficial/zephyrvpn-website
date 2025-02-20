@@ -1,7 +1,6 @@
 'use client';
 
 import CallToActionSection from './cta-animation';
-import { useRef } from 'react'
 
 
 
