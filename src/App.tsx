@@ -1,6 +1,4 @@
-
-import React from 'react';
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from './pages/home';
 import Nav from './components/nav';
 import About from './pages/about';
