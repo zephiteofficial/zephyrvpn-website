@@ -185,10 +185,10 @@ const tiles = [
                                 <h1 className="text-8xl font-semibold mb-6">ZephyrVPN</h1>
                                 <p className="text-[22px] mb-6 font-medium text-muted-foreground">The One-Stop VPN for all college students.</p>
                                 <div className="flex justify-center gap-8">
-                                    <button className="h-12 w-48 text-lg bg-primary text-background font-medium rounded-lg transition-all duration-100 hover:bg-green-700 active:bg-muted-primary hover:outline-none">
+                                    <button className="h-12 w-48 text-lg bg-primary text-background font-medium rounded-lg transition-all duration-100 active:bg-muted-primary hover:outline-none">
                                         Get Started
                                     </button>
-                                    <button className="h-12 w-48 text-lg outline outline-2 font-base outline-accent text-primary-foreground rounded-lg transition-all duration-100 hover:bg-primary active:bg-muted-primary hover:text-background hover:font-semibold hover:outline-none">
+                                    <button className="backdrop-blur-sm h-12 w-48 text-lg outline outline-2 font-base outline-accent text-primary-foreground rounded-lg transition-all duration-100 hover:bg-primary active:bg-muted-primary hover:text-background hover:font-semibold hover:outline-none">
                                         Contact Us
                                     </button>
                                 </div>
