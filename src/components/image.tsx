@@ -29,7 +29,7 @@ return (
                 />
 
                 <img
-                    src="src\components\assets\hero-dark.png"
+                    src="public\hero-dark.png"
                     alt="Hero Image"
                     className="relative hidden size-full rounded-[inherit] border-0 object-contain dark:block"
                 />
