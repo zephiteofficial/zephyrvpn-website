@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-icons": "^1.3.2",
     "@radix-ui/react-slot": "^1.1.2",
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
+    "@tabler/icons-react": "^3.30.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.4.7",
@@ -22,9 +24,11 @@
     "next": "^15.1.7",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^7.1.5",
     "sort-by": "^0.0.2",
     "tailwind-merge": "^3.0.1",
+    "tailwindcss-hero-patterns": "^0.1.2",
     "three": "^0.173.0",
     "three-globe": "^2.41.12"
   },
