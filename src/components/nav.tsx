@@ -3,7 +3,7 @@ import { Outlet, Link } from 'react-router-dom';
 export default function Nav(){
     return (
     <>
-        <nav className="bg-background outline-2 outline-foreground text-foreground p-4 flex w-full top-0 z-50">
+        <nav className="fixed bg-gradient-to-b from-background to-transparent outline-2 outline-foreground text-foreground p-4 flex w-full top-0 z-50">
         <div className="container mx-auto min-h-16 flex justify-between items-center">
           <div className="group text-4xl transition-all font-normal">
             <p className='inline group-hover:text-primary group-hover:cursor-none ease-in duration-200'>
@@ -17,12 +17,6 @@ export default function Nav(){
             <li className="group">
               <Link to="/" className="relative">
                 Home
-                <span className="absolute left-0 top-6 w-0 h-1 bg-primary transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-            </li>
-            <li className="group">
-              <Link to="/about" className="relative">
-                About
                 <span className="absolute left-0 top-6 w-0 h-1 bg-primary transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
