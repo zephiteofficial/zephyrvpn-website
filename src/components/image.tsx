@@ -1,6 +1,4 @@
 'use client'
-
-import { ArrowRightIcon } from '@radix-ui/react-icons'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { BorderBeam } from './ui/border-beam'
