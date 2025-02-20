@@ -1,4 +1,3 @@
-import Nav from "../components/nav";
 const About = () => {
     return (
     <div className="bg-background flex flex-col flex-1 min-h-screen max-h-screen overflow-hidden">
