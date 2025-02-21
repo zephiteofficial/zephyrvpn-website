@@ -1,8 +1,12 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, ReactNode } from "react";
 
-const RevealOnScroll = ({ children }) => {
+interface RevealOnScrollProps {
+    children: ReactNode;
+}
+
+const RevealOnScroll: React.FC<RevealOnScrollProps> = ({ children }) => {
     const [isVisible, setIsVisible] = useState(false);
-    const ref = useRef<HTMLDivElement | null>(null); // Explicitly define the ref type
+    const ref = useRef<HTMLDivElement | null>(null);
 
     useEffect(() => {
         const scrollObserver = new IntersectionObserver(([entry]) => {
@@ -12,7 +16,7 @@ const RevealOnScroll = ({ children }) => {
             }
         });
 
-        if (ref.current) {  // Ensure ref.current is not null before observing
+        if (ref.current) {
             scrollObserver.observe(ref.current);
         }
 
