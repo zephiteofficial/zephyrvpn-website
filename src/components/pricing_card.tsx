@@ -1,6 +1,6 @@
 export default function PricingCard(planName:string,planPrice:string, planDesc: string, bandwidth: string, deviceLimit:string){
     return (
-        <div className="animate-fade-up bg-repeat text-primary heropattern-topography-neutral-700">
+        <div className="animate-fade-up bg-repeat heropattern-topography-neutral-700">
             <div className="bg-black/5 bg-gradient-to-l from-black to-transparent">
                 <div className="backdrop-blur-[1px]  bg-gradient-to-b from-black via-black to-transparent"></div>
                     <div className="group rounded-md border border-opacity-50 border-neutral-900 shadow-sm bg-inherit hover:bg-opacity-60 hover:bg-gradient-to-t hover:from-neutral-900 hover:to-transparent via-transparent transition-all ease-in-out duration-300">
