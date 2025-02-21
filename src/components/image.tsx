@@ -27,7 +27,7 @@ return (
                 <div className="absolute top-0 left-0 w-32 h-32 bg-gradient-to-br from-neutral-300 via-transparent to-transparent opacity-40 rounded-tl-[16px] group-hover:bg-gradient-to-br group-hover:from-primary group-hover:to-transparent group-hover:via-transparent"></div>
                 
                     <img
-                        src="/hero-dark.png"
+                        src="/zephyrvpn-website//hero-dark.png"
                         alt="Hero Image"
                         className="relative hidden size-full rounded-[inherit] border-0 object-contain dark:block"
                     />
