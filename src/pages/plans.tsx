@@ -2,7 +2,7 @@ import Pricing from '../components/pricing';
 const Plans = () => {
     return (
         <>
-        <div className="bg-transparent bg-flex w-screen h-screen text-primary-foreground overflow-hidden">
+        <div className="bg-transparent bg-flex w-auto h-auto pb-80 text-primary-foreground overflow-y-hidden">
             <Pricing />
 
 

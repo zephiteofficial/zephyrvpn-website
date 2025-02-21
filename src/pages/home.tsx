@@ -8,7 +8,7 @@ import RevealOnScroll from "../components/scroll";
 export default function Home(){
     return(
         <>
-            <div className='bg-transparent'>
+            <div className='bg-background bg-flex w-auto h-auto'>
 
                 <HeroSection/>
                 <RevealOnScroll>

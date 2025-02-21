@@ -117,7 +117,7 @@ module.exports = {
       'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
    },
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'], // Add "Poppins" as the default sans-serif font
+        sans: ['Poppins', 'sans-serif'], // 
       },
     },
   },

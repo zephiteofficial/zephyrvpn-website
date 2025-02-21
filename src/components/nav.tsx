@@ -27,12 +27,6 @@ export default function Nav(){
               </Link>
             </li>
             <li className="group">
-              <Link to="/contact" className="relative">
-                Contact
-                <span className="absolute left-0 top-6 w-0 h-1 bg-primary transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-            </li>
-            <li className="group">
               <a href="https://dash.zephyrvpn.com/#/login" className="relative">
                 Dashboard
                 <span className="absolute left-0 top-6 w-0 h-1 bg-primary transition-all duration-300 group-hover:w-full"></span>
