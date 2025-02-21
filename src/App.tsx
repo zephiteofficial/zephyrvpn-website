@@ -10,8 +10,8 @@ function App() {
       <div className="bg-background">
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/plans" element={<Plans />} />
+          <Route path="/zephyrvpn-website/" element={<Home />} />
+          <Route path="/zephyrvpn-website/plans" element={<Plans />} />
         </Routes>
         <div className="mt-24">
           <Footer />
