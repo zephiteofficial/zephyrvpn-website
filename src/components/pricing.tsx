@@ -6,7 +6,7 @@ const Pricing = ()=> {
         }
     ]
     return(
-        <div className="max-w-screen-2xl mx-auto px-6 lg:px-8 mt-40">
+        <div className="max-w-screen-2xl mx-auto px-6 lg:px-8 mt-60">
             <div className="max-w-4xl mx-auto text-center">
                 <h1 className="text-3xl font-semibold leading-7 text-primary">Pricing</h1>
                 <p className="mt-2 text-4xl tracking-tight text-primary-foreground sm:text-5xl pb-10">Pricing Plans that fit your needs</p>

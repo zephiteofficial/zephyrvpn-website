@@ -9,7 +9,7 @@ import {
    Shield,
 } from 'lucide-react'
 import { useEffect, useId, useRef, useState } from 'react'
-
+import Image from "../components/image";
 import { ny } from '../lib/utils'
 import Marquee from './ui/marquee';
 
@@ -128,7 +128,7 @@ const tiles = [
           <div>
              <div className="flex w-full flex-col items-center justify-center overflow-hidden">
                 <div className="relative flex w-full flex-col items-center justify-center ">
-                    <div className='blur-[1px]'>
+                    <div className='blur-[0.5px] h-[1024px]'>
                     <Marquee
                       reverse
                       className="-delay-[100ms] [--duration:10s]"
@@ -177,11 +177,11 @@ const tiles = [
                       ))}
                    </Marquee>
                     </div>
-                   
                    <div className="absolute z-10">
                    <div id="home" className="w-screen items-center justify-center text-foreground">
-                        <div className="text-center w-full flex items-center justify-center h-[640px]">
-                            <div>
+                        <div className="mt-48 text-center w-full flex items-center justify-center">
+                           <div>
+                           <div>
                                 <h1 className="text-8xl font-semibold mb-6">ZephyrVPN</h1>
                                 <p className="text-[22px] mb-6 font-medium text-muted-foreground">The One-Stop VPN for all college students.</p>
                                 <div className="flex justify-center gap-8">
@@ -192,12 +192,17 @@ const tiles = [
                                         Contact Us
                                     </button>
                                 </div>
+                                <Image />
                             </div>
+                            
+                           </div>
                         </div>
                     </div>
                    </div>
-                   <div className="to-backtround dark:to-background absolute inset-x-0 bottom-0 h-full bg-gradient-to-b from-transparent from-20%" />
-                   <div className="absolute inset-x-0 bottom-0 h-full bg-gradient-to-t from-transparent to-background dark:to-background from-20%" />
+                   <div className="to-backtround dark:to-background absolute inset-x-0 bottom-0 h-full bg-gradient-to-b from-transparent from-15%" />
+                   <div className="absolute inset-x-0 bottom-0 h-full bg-gradient-to-t from-transparent to-background dark:to-background from-15%" />
+                   <div className="to-backtround dark:to-background absolute inset-x-0 bottom-0 h-full bg-gradient-to-r from-transparent from-15%" />
+                   <div className="to-backtround dark:to-background absolute inset-x-0 bottom-0 h-full bg-gradient-to-l from-transparent from-15%" />
                 </div>
              </div>
           </div>

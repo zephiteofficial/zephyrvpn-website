@@ -2,7 +2,7 @@ import { DiscordLogoIcon, TwitterLogoIcon ,} from '@radix-ui/react-icons'
 import { FaWhatsapp } from "react-icons/fa";
 export default function Footer(){
     return (
-        <footer className="relative text-foreground pt-16 px-6 bg-inherit">
+        <footer className="relative text-foreground pt-16 px-6 bg-transparent">
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
                 <div className="container mx-auto flex flex-col md:flex-row justify-between items-start max-w-[1280px]">
 
