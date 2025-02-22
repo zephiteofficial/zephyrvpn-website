@@ -4,7 +4,7 @@ export default function Stats(){
             <div className="bg-black/5 bg-gradient-to-r from-black via-transparent to-black">
                 <div className="backdrop-blur-[1px] bg-gradient-to-b from-black via-transparent to-black">
                     <div className=" flex justify-center">
-                        <div className="h-64 max-w-[1280px] min-w-[1280px] grid grid-cols-1 sm:grid-cols-1 xl:grid-cols-3 gap-8">
+                        <div className="h-64 w-auto grid grid-cols-1 sm:grid-cols-1 xl:grid-cols-3 gap-8">
                             {Statval("12+", "Servers")}
                             {Statval("1000+", "Users")}
                             {Statval("100%", "No Logs Policy")}

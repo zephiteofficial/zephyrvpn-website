@@ -1,5 +1,5 @@
-import { DiscordLogoIcon, TwitterLogoIcon ,} from '@radix-ui/react-icons'
-import { FaWhatsapp } from "react-icons/fa";
+
+import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 export default function Footer(){
     return (
         <footer className="relative text-foreground pt-16 px-6 bg-transparent">
@@ -20,7 +20,7 @@ export default function Footer(){
                             <h3 className="font-semibold text-base mb-2">Community</h3>
                             <ul className="space-y-1">
                                 <li><a href="#" className="text-neutral-400 text-base font-light hover:text-foreground duration-300">WhatsApp</a></li>
-                                <li><a href="#" className="text-neutral-400 text-base font-light hover:text-foreground duration-300">Discord</a></li>
+                                
                                 <li><a href="#" className="text-neutral-400 text-base font-light hover:text-foreground duration-300">Email</a></li>
                             </ul>
                         </div>
@@ -39,8 +39,8 @@ export default function Footer(){
                 </div>
                 <div className="pb-8 pt-16 pr-12 container mx-auto flex flex-col md:flex-row justify-between items-start max-w-[1280px] border-gray-700">
                         <div className="flex space-x-4">
-                            <a href="#" className="text-gray-400 hover:text-green-400"><DiscordLogoIcon size-4 /></a>
-                            <a href="#" className="text-gray-400 hover:text-green-400"><TwitterLogoIcon size-4 /></a>
+                            
+                            <a href="#" className="text-gray-400 hover:text-green-400"><FaEnvelope size-4 /></a>
                             <a href="#" className="text-gray-400 hover:text-green-400"><FaWhatsapp size-4 /></a>
                         </div>
                         <div className="text-gray-400 text-sm">Copyright &copy; 2025 VPNET. All Rights Reserved.</div>
