@@ -9,7 +9,7 @@ export default function Image() {
    const inView = useInView(ref, { once: true, margin: '-100px' })
 return (
     <div
-        className="relative mx-auto mt-36 max-w-7xl text-center md:px-8 sm:px-1"
+        className="relative mx-auto mt-36 max-w-7xl text-center md:px-8 sm:px-1 hidden md:block lg:block"
     >
         <div
             ref={ref}

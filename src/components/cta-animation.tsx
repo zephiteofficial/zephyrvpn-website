@@ -182,7 +182,7 @@ const tiles = [
                         <div className="mt-48 text-center w-full flex items-center justify-center">
                            <div>
                            <div>
-                                <h1 className="text-8xl font-semibold mb-6">ZephyrVPN</h1>
+                                <h1 className="text-3xl md:text-5xl  lg:text-8xl font-semibold mb-6">ZephyrVPN</h1>
                                 <p className="text-[22px] mb-6 font-medium text-muted-foreground">The One-Stop VPN for all college students.</p>
                                 <div className="flex justify-center gap-8">
                                     <button className="h-12 w-48 text-lg bg-primary text-background font-medium rounded-lg transition-all duration-300 active:bg-muted-primary hover:outline-none hover:bg-green-700">
