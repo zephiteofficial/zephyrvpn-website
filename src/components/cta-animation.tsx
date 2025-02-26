@@ -1,4 +1,3 @@
-'use client';
 import { motion, useAnimation, useInView } from 'framer-motion'
 import {
    BarChart,
@@ -124,11 +123,9 @@ const tiles = [
     }, [])
  
     return (
-       <section id="cta">
-          <div>
-             <div className="flex w-full flex-col items-center justify-center overflow-hidden">
+             <div className="flex w-full flex-col items-center justify-center pt-12 overflow-hidden">
                 <div className="relative flex w-full flex-col items-center justify-center ">
-                    <div className='blur-[0.5px] h-[1024px]'>
+                    <div className='blur-[0.5px] h-[512px] md:h-[1024px]'>
                     <Marquee
                       reverse
                       className="-delay-[100ms] [--duration:10s]"
@@ -179,18 +176,22 @@ const tiles = [
                     </div>
                    <div className="absolute z-10">
                    <div id="home" className="w-screen items-center justify-center text-foreground">
-                        <div className="mt-48 text-center w-full flex items-center justify-center">
+                        <div className="mt-0 md:mt-72 text-center w-full flex items-center justify-center">
                            <div>
                            <div>
-                                <h1 className="text-3xl md:text-5xl  lg:text-8xl font-semibold mb-6">ZephyrVPN</h1>
-                                <p className="text-[22px] mb-6 font-medium text-muted-foreground">The One-Stop VPN for all college students.</p>
+                                <h1 className="text-5xl md:text-8xl font-semibold mb-6">ZephyrVPN</h1>
+                                <p className="text-base md:text-xl lg:text-2xl mb-6 font-medium text-muted-foreground">Wi-Fi Limitations? Not On Our Watch. 👁️</p>
                                 <div className="flex justify-center gap-8">
-                                    <button className="h-12 w-48 text-lg bg-primary text-background font-medium rounded-lg transition-all duration-300 active:bg-muted-primary hover:outline-none hover:bg-green-700">
+                                    <a href="https://dash.zephyrvpn.com/">
+                                    <button className="h-12 w-32 md:w-48 text-sm md:text-lg bg-primary text-background font-medium rounded-lg transition-all duration-300 active:bg-muted-primary hover:outline-none hover:bg-green-700">
                                         Get Started
                                     </button>
-                                    <button className="backdrop-blur-sm h-12 w-48 text-lg outline outline-2 font-base outline-accent text-primary-foreground rounded-lg transition-all duration-300 hover:bg-primary active:bg-muted-primary hover:text-background hover:font-semibold hover:outline-none">
+                                    </a>
+                                    <a href="mailto:support@vp-net.org">
+                                    <button className="backdrop-blur-sm h-12 w-32 md:w-48 text-sm md:text-lg outline outline-2 font-base outline-accent text-primary-foreground rounded-lg transition-all duration-300 hover:bg-primary active:bg-muted-primary hover:text-background hover:font-semibold hover:outline-none">
                                         Contact Us
                                     </button>
+                                    </a>
                                 </div>
                                 <Image />
                             </div>
@@ -205,8 +206,6 @@ const tiles = [
                    <div className="to-backtround dark:to-background absolute inset-x-0 bottom-0 h-full bg-gradient-to-l from-transparent from-15%" />
                 </div>
              </div>
-          </div>
-       </section>
     )
  }
  

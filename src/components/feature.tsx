@@ -1,62 +1,64 @@
 import {
-  IconAdjustmentsBolt,
-  IconCloud,
-  IconCurrencyDollar,
-  IconEaseInOut,
-  IconCloudStorm,
-  IconHelp,
-  IconRouteAltLeft,
-  IconTerminal2,
-} from "@tabler/icons-react";
+    IconLock,
+    IconDevices,
+    IconCurrencyDollar,
+    IconServer,
+    IconRocket,
+    IconDevicesPlus,
+    IconMask,
+    IconUsers
+  } from "@tabler/icons-react";
 
 const features = [
     {
-      title: "Built for developers",
-      description: "Experience blazing fast speeds with VPNet, ensuring you never have to wait for anything online." ,
-      icon: <IconTerminal2 />,
+      title: "Bypass Restrictions",
+      description: "Break free from network limitations with ZephyrVPN. Access your favorite content, games, and websites regardless of regional or network restrictions.",
+      icon: <IconLock  />,
     },
     {
-      title: "Ease of use",
-      description: "Experience blazing fast speeds with VPNet, ensuring you never have to wait for anything online.",
-      icon: <IconEaseInOut />,
+      title: "Multi-Platform Support",
+      description: "Enjoy seamless protection across PC, console, and mobile devices with ZephyrVPN. One subscription covers all your gaming platforms with optimized connections.",
+      icon: <IconDevices  />,
     },
     {
-      title: "Pricing like no other",
-      description: "Experience blazing fast speeds with VPNet, ensuring you never have to wait for anything online.",
-      icon: <IconCurrencyDollar  />,
+      title: "Affordable Pricing",
+      description: "Get premium protection without the premium price tag. Our flexible plans fit every budget while delivering enterprise-grade performance benefits.",
+      icon: <IconCurrencyDollar />,
     },
     {
-      title: "100% Uptime",
-      description: "Experience blazing fast speeds with VPNet, ensuring you never have to wait for anything online.",
-      icon: <IconCloud />,
+      title: "99% Uptime",
+      description: "Our reliable network infrastructure ensures you stay connected at all times. Never worry during your crucial gaming moments.",
+      icon: <IconServer  />,
     }
-]
+];
+
 const features2 = [
     {
       title: "Low Latency Gaming",
-      description: "Experience blazing fast speeds with VPNet, ensuring you never have to wait for anything online.",
-      icon: <IconRouteAltLeft />,
+      description: "Dominate your gaming sessions with our optimized servers. Experience minimal ping, reduced packet loss, and the competitive edge you need to win matches.",
+      icon: <IconRocket  />,
     },
     {
-      title: "Bypass Restrictions",
-      description: "Bypass network restrictions effortlessly and access the online world without limitations with VPNet.",
-      icon: <IconAdjustmentsBolt />,
+      title: "Simultaneous Devices",
+      description: "Connect multiple devices simultaneously with a single subscription. Protect your gaming PC, mobile, and console all at once without additional charges.",
+      icon: <IconDevicesPlus  />,
     },
     {
-      title: "Blazing Speeds",
-      description: "Experience blazing fast speeds with VPNet, ensuring you never have to wait for anything online.",
-      icon: <IconCloudStorm />,
+      title: "Digital Invisibility",
+      description: "Cloak your online presence with ZephyrVPN's advanced encryption. Browse and play with complete anonymity, leaving no digital footprints for trackers.",
+      icon: <IconMask  />,
     },
     {
-      title: "24/7 Support",
-      description: "Experience blazing fast speeds with VPNet, ensuring you never have to wait for anything online.",
-      icon: <IconHelp />,
+      title: "Community First",
+      description: "Find solutions in our active user community where fellow gamers share their experiences and troubleshooting tips while waiting for official support responses.",
+      icon: <IconUsers  />,
     },
-  ];
+];
+
   
   export default function Features() {
     return (
-      <section className="bg-transparent text-foreground py-16 px-6">
+      <section className="bg-transparent text-foreground pb-16 px-6">
         <div className="mx-auto max-w-max text-center">
           <h2 className="text-3xl font-bold mb-16">Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0">

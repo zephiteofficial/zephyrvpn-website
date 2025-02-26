@@ -1,9 +1,8 @@
 export default function PricingCard(planName:string,planPrice:string, planDesc: string, bandwidth: string, deviceLimit:string){
     return (
-        <div className="animate-fade-up bg-repeat heropattern-topography-neutral-700">
-            <div className="bg-black/5 bg-gradient-to-l from-black to-transparent">
-                <div className="backdrop-blur-[1px]  bg-gradient-to-b from-black via-black to-transparent"></div>
-                    <div className="group rounded-md border border-opacity-50 border-neutral-900 shadow-sm bg-inherit hover:bg-opacity-60 hover:bg-gradient-to-t hover:from-neutral-900 hover:to-transparent via-transparent transition-all ease-in-out duration-300">
+        <div className="rounded-xl border-neutral-900 hober:border-muted-primary border-[0.5px] animate-fade-up backdrop-blur-2xl bg-repeat heropattern-topography-neutral-700">
+            <div className="rounded-xl bg-black/5 bg-gradient-to-l from-black to-black/50">
+                    <div className="rounded-xl group border border-opacity-50 border-neutral-900 shadow-sm bg-inherit hover:bg-opacity-60 hover:bg-gradient-to-t hover:from-neutral-900 hover:to-transparent via-transparent transition-all ease-in-out duration-300">
                         <div className="flex flex-col space-y-1.5 p-6 pb-4">
                             <h3 className="group-hover:pl-2 transition-all ease-in-out duration-300 font-semibold tracking-tight text-xl text-primary">{planName}</h3>
                             <h3 className="tracking-tight text-2xl font-semibold">

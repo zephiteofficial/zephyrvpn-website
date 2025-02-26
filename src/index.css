@@ -32,11 +32,14 @@
     --muted-primary: 143 64% 24%;
   }
 }
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-
-.scrollbar-hide {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .scrollbar-hidden::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .scrollbar-hidden {
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+    }
+  }
