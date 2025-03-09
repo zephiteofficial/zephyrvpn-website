@@ -180,7 +180,7 @@ const tiles = [
                            <div>
                            <div>
                                 <h1 className="text-5xl md:text-8xl font-semibold mb-6">ZephyrVPN</h1>
-                                <p className="text-base md:text-xl lg:text-2xl mb-6 font-medium text-muted-foreground">Wi-Fi Limitations? Not On Our Watch. 👁️</p>
+                                <p className="text-base md:text-xl lg:text-2xl mb-6 font-medium text-muted-foreground">Network Restrictions? Not On Our Watch. 👁️</p>
                                 <div className="flex justify-center gap-8">
                                     <a href="https://dash.zephyrvpn.com/">
                                     <button className="h-12 w-32 md:w-48 text-sm md:text-lg bg-primary text-background font-medium rounded-lg transition-all duration-300 active:bg-muted-primary hover:outline-none hover:bg-green-700">
